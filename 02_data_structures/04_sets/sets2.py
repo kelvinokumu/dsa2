@@ -5,16 +5,16 @@ print(f"  a: {a}")
 print(f"  b: {b}")
 
 # {1, 2, 3, 4, 5}
-print(f"  Union (a | b): {a | b}")
+# print(f"  Union (a | b): {a | b}")
 
 # {3}
-print(f"  Intersection (a & b): {a & b}")
+# print(f"  Intersection (a & b): {a & b}")
 
 # {1, 2}
-print(f"  Difference (a - b): {a - b}")
+# print(f"  Difference (a - b): {a - b}")
 
 # {1, 2, 4, 5}
-print(f"  Symmetric Difference (a ^ b): {a ^ b}")
+# print(f"  Symmetric Difference (a ^ b): {a ^ b}")
 
 # True
 print(f"  2 in a: {2 in a}")

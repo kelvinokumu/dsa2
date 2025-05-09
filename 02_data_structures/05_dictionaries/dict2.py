@@ -8,12 +8,12 @@ print(f"  Number of items: {len(student)}")
 
 
 # Looping Through a Dictionary
-for key in student:
-    print(f"  {key}: {student[key]}")
+# for key in student:
+#     print(f"  {key}: {student[key]}")
 
 # OR
-for key, value in student.items():
-    print(f"  {key} => {value}")
+# for key, value in student.items():
+#     print(f"  {key} => {value}")
 
 # Dictionary Keys, Values, Items
 print(f"  Keys: {list(student.keys())}")

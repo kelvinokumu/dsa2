@@ -7,11 +7,11 @@ mixed_tup = (1, "apple", 3.14)
 print(f"Type of mixed_tup: {type(mixed_tup)}")
 
 # Single element tuple should have a trailing comma
-single = (5,)
+single = (5)
 print(f"Type of single-element tuple: {type(single)}")
 
 # Slicing
-print(f"Sliced tuple from index 1: {tup[1:]}")
+print(f"Sliced tuple from index 1: {tup[2:]}")
 
 # Concatenation
 a = (1, 2)
