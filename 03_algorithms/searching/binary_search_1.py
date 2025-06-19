@@ -7,7 +7,9 @@ def binary_search_recursive(inputs, target_search, low, high):
 
     # get the middle index and round it off
     mid = (low + high) // 2
-    # print(f"The middle element is {values[mid]}")
+    print(f"The low element is {values[low]}")
+    print(f"The high element is {values[high]}")
+    print(f"The middle element is {values[mid]} \n")
 
     if inputs[mid] == target_search:
         return mid
@@ -19,11 +21,14 @@ def binary_search_recursive(inputs, target_search, low, high):
 
 # Generate 10 random integers between 1 and 100
 values = sorted([random.randint(1, 100) for _ in range(10)])
+
+# check the data type
+print(f"{type(values)}")
 print("Ordered:", values)
 
-
-# values = [2, 4, 6, 8, 10, 12, 14]
 target = int(input("Enter number to search : "))
+
+# start the function
 result = binary_search_recursive(values, target, 0, len(values) - 1)
 
 # result
